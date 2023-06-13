@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    color: #16214A;
+    line-height: 1.1em;
+}
+h2 {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #37608E;
+    line-height: 1.2em;
+}
+h3 {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+    color: #37608E;
+    line-height: 1.2em;
+}
+p {
+    color: #323232;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+small {
+    color: #323232;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+ul {
+    color: #323232;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2em;
+}
+ol {
+    color: #323232;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2em;
+}
+hr {
+    border-top: 2px solid #37608E;
+}
+
+/* Classes */
+
+.lc-list li::marker {
+    list-style-type: disc;
+    color: #37608E;
+}
+
+.lc-table {
+    color: #323232;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.lc-table tr:nth-child(even) {
+	background-color: #cce5ff;
+}
+
+.lc-table th {
+	background-color: #cce5ff;
+	border: 1px solid black;
+}
+
+.lc-table td {
+	border: 1px solid black;
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 5px;
+    }
+}
