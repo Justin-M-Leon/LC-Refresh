@@ -24,6 +24,14 @@ h3 {
     color: #37608E;
     line-height: 1.2em;
 }
+h4 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #16214A;
+    line-height: 1.2em;
+}
 p {
     color: #323232;
     font-family: proxima-nova, sans-serif;
