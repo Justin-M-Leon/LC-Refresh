@@ -84,12 +84,11 @@ hr {
     line-height: 1.5em;
 }
 
-.lc-table tr:nth-child(even) {
+.lc-table tr:nth-child(odd) {
 	background-color: #cce5ff;
 }
 
 .lc-table th {
-	background-color: #cce5ff;
 	border: 1px solid rgb(0 0 0 / 25%);
 }
 
@@ -109,7 +108,7 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 th {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
 }
 
 @media (max-width: 600px) {
